@@ -1,0 +1,73 @@
+body {
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(17, 8, 20, 0.74);
+}
+
+.background,
+.btn-container {
+    background-color: #877;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.list-container {
+    display: flex;
+    margin: 5px 0px 5px 0px;
+}
+
+.product-name,
+.product-price,
+.product-stock {
+    padding: 12px;
+}
+
+.product-name {
+    background-color: black;
+    flex-basis: 500px;
+    margin-right: 2px;
+    padding-left: 30px;
+}
+
+.product-price {
+    background-color: #567; 
+    flex-basis: 200px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.product-stock,
+.stock-text {
+    background-color: #333;
+    flex-basis: 60px;
+    text-align: center;
+}
+
+.btn-container {
+    text-align:center;
+    width: 300px; 
+    border-radius: 55px;
+}
+
+.btn-sort-price,
+.btn-sort-stock {
+    padding: 8px;
+    background-color: rgb(83, 121, 121);
+    border: 3px solid rgb(39, 41, 41);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.background-labels{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.name-text{
+    text-align: center;
+}
+
+
+
